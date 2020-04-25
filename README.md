@@ -36,8 +36,8 @@ of movies. We used Mongo Compass to import the json file and the command line to
 <h3>Database Collection Document Sample</h3>
 <p>
 <code>
-  {</br>
-  "id": "tt0058994",</br>
+  {<br/>
+  "id": "tt0058994",<br/>
   "title": "Bruce's Fingers",</br>
   "release_date": null,</br>
   "year": 1976,</br>
