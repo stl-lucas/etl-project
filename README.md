@@ -34,4 +34,4 @@ In the end, this enabled us to make fewer API calls and create a curated dataset
 of movies. We used Mongo Compass to import the json file and the command line to connect to the remote db and verify that our records loaded properly and could be queried.</p>
 
 <h3>Database Collection Document Sample</h3>
-![alt text](https://github.com/stl-lucas/etl-project/blob/master/Output/sample_doc.png?raw=true)
+<img src="Output/sample_doc.png" />
