@@ -34,4 +34,4 @@ In the end, this enabled us to make fewer API calls and create a curated dataset
 of movies. We used Mongo Compass to import the json file and the command line to connect to the remote db and verify that our records loaded properly and could be queried.</p>
 
 <h3>Database Collection Document Sample</h3>
-<img src="Output/sample_doc.png" width="50" height="70" alt="trumpet"/>
+<img src="Output/sample_doc.png" width="150" height="210" alt="trumpet"/>
