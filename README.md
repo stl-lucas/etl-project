@@ -34,43 +34,4 @@ In the end, this enabled us to make fewer API calls and create a curated dataset
 of movies. We used Mongo Compass to import the json file and the command line to connect to the remote db and verify that our records loaded properly and could be queried.</p>
 
 <h3>Database Collection Document Sample</h3>
-<p>
-<code>
-  {<br/>
-  "id": "tt0058994",<br/>
-  "title": "Bruce's Fingers",</br>
-  "release_date": null,</br>
-  "year": 1976,</br>
-  "runtime": 91,</br>
-  "genres": [</br>
-    "Action",</br>
-    "Crime",</br>
-    "Drama"</br>
-  ],</br>
-  "rated": "R",</br>
-  "countries": [</br>
-    "Hong Kong"</br>
-  ],</br>
-  "actors": [</br>
-    "Bruce Le",</br>
-    "Michael Wai-Man Chan",</br>
-    "Nora Miao",</br>
-    "Lieh Lo"</br>
-  ],</br>
-  "directors": [</br>
-    "Joseph Kong"</br>
-  ],</br>
-  "writers": [</br>
-    "Joseph Kong (screenplay)"</br>
-  ],</br>
-  "awards": null,</br>
-  "box_office": null,</br>
-  "ratings": [</br>
-    {</br>
-      "Source": "Internet Movie Database",</br>
-      "Value": "5.2/10"</br>
-    }</br>
-  ]</br>
-}</br>
-</code>
-</p>
+![alt text](https://github.com/stl-lucas/etl-project/blob/master/sample_doc.png?raw=true)
