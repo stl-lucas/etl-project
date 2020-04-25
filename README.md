@@ -35,40 +35,40 @@ of movies. We used Mongo Compass to import the json file and the command line to
 
 <h3>Database Collection Document Sample</h3>
 <code>
-  {
-  "id": "tt0058994",
-  "title": "Bruce's Fingers",
-  "release_date": null,
-  "year": 1976,
-  "runtime": 91,
-  "genres": [
-    "Action",
-    "Crime",
-    "Drama"
-  ],
-  "rated": "R",
-  "countries": [
-    "Hong Kong"
-  ],
-  "actors": [
-    "Bruce Le",
-    "Michael Wai-Man Chan",
-    "Nora Miao",
-    "Lieh Lo"
-  ],
-  "directors": [
-    "Joseph Kong"
-  ],
-  "writers": [
-    "Joseph Kong (screenplay)"
-  ],
-  "awards": null,
-  "box_office": null,
-  "ratings": [
-    {
-      "Source": "Internet Movie Database",
-      "Value": "5.2/10"
-    }
-  ]
-}
+  {</br>
+  "id": "tt0058994",</br>
+  "title": "Bruce's Fingers",</br>
+  "release_date": null,</br>
+  "year": 1976,</br>
+  "runtime": 91,</br>
+  "genres": [</br>
+    "Action",</br>
+    "Crime",</br>
+    "Drama"</br>
+  ],</br>
+  "rated": "R",</br>
+  "countries": [</br>
+    "Hong Kong"</br>
+  ],</br>
+  "actors": [</br>
+    "Bruce Le",</br>
+    "Michael Wai-Man Chan",</br>
+    "Nora Miao",</br>
+    "Lieh Lo"</br>
+  ],</br>
+  "directors": [</br>
+    "Joseph Kong"</br>
+  ],</br>
+  "writers": [</br>
+    "Joseph Kong (screenplay)"</br>
+  ],</br>
+  "awards": null,</br>
+  "box_office": null,</br>
+  "ratings": [</br>
+    {</br>
+      "Source": "Internet Movie Database",</br>
+      "Value": "5.2/10"</br>
+    }</br>
+  ]</br>
+}</br>
 </code>
