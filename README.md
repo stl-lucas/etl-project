@@ -26,12 +26,30 @@ id's provided by the IMDb files and creating a for loop that would make individu
 <p>The data extraction went very smooth and we started with close to 7 million records before transformation, and made just over 2,000 api calls to complete the extraction portion of this project.</p>
 
 <h3>Transform</h3>
-<p>Transforming this data took place throughout and after the extraction process. We first transformed the original IMDb data sets and narrowed our list of movies down to just 2,400, Using Pandas, this was done first by limiting our search to non-adult media and movies, as opposed to TV and other mediums. From here, it was a process of honing in on an arbitrary decade, the 1970s, and those genres that included 'Action' as a description.
-In the end, this enabled us to make fewer API calls and create a curated dataset of 1970s action movies from all around the world.</p>
+<p>Transforming this data took place throughout and after the extraction process. We first transformed the original IMDb data sets and narrowed our list of movies down to just 2,400, Using Pandas, this was done first by limiting our search to non-adult media and movies, as opposed to TV and other mediums. From here, it was a process of honing in on an arbitrary decade, the 1970s, and those genres that included 'Action' as a description. We removed several columns that were redundant or wouldn't be desired in the final dataset. We merged our list of movies with a ratings analysis from IMDB. We then merged this data set with the results form our API calls that included more details such as box office results, awards and countries. In the end, this enabled us to make fewer API calls and create a curated dataset of 1970s action movies from all around the world.</p>
 
 <h3>Load</h3>
 <p>For loading our data we decided to use a cloud based mongo server. We utilized the free db options offered by Mongo Atlas and created our movie_db database with a single collection
-of movies. We used Mongo Compass to import the json file and the command line to connect to the remote db and verify that our records loaded properly and could be queried.</p>
+of movies. We used the command line to import the json file and then used a db.movies.find() command to verify that our records loaded properly and could be queried.</p>
 
-<h3>Database Collection Document Sample</h3>
-<img src="Output/sample_doc.png" width="400" height="640" alt="trumpet"/>
+<h3>Database Collection & Document Sample</h3>
+<img src="Images/sample_doc.png" width="400" alt="database-document-screenshot"/>
+
+<h3>Database Query Example</h3>
+<img src="Images/db_query.png" width="400" alt="databae-query-example"/>
+
+<p> The final result of this project was a Mongo Database that contains all Action movies released in the 1970s complete with:</p>
+<ul>
+<li>Title</li>
+<li>Release Date</li>
+<li>Year</li>
+<li>Runtime (in minutes)</li>
+<li>Genres</li>
+<li>Moving Rating</li>
+<li>Countries</li>
+<li>Actors</li>
+<li>Directors</li>
+<li>Writers</li>
+<li>Awards</li>
+<li>Box Office Results</li>
+</ul>
