@@ -1,7 +1,7 @@
 <h1>Project 2: ETL Challenge</h1>
 <h3>Authors: John Jostes and Tim Lucas</h3>
 <p>This project was designed to follow the extract, transform and load steps for ETL. 
-We chose to focus on movie data from the 1970's within the Action genre for our target data set.</p>
+We chose to focus on movie data from the 1970s within the Action genre for our target data set.</p>
 
 <h3>Extract</h3>
 <p>During the extraction phase we focused on collecting our data in two different ways. The first step was to download two seperate .tsv files from
@@ -32,3 +32,43 @@ In the end, this enabled us to make fewer API calls and create a curated dataset
 <h3>Load</h3>
 <p>For loading our data we decided to use a cloud based mongo server. We utilized the free db options offered by Mongo Atlas and created our movie_db database with a single collection
 of movies. We used Mongo Compass to import the json file and the command line to connect to the remote db and verify that our records loaded properly and could be queried.</p>
+
+<h3>Database Collection Document Sample</h3>
+<code>
+  {
+  "id": "tt0058994",
+  "title": "Bruce's Fingers",
+  "release_date": null,
+  "year": 1976,
+  "runtime": 91,
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "rated": "R",
+  "countries": [
+    "Hong Kong"
+  ],
+  "actors": [
+    "Bruce Le",
+    "Michael Wai-Man Chan",
+    "Nora Miao",
+    "Lieh Lo"
+  ],
+  "directors": [
+    "Joseph Kong"
+  ],
+  "writers": [
+    "Joseph Kong (screenplay)"
+  ],
+  "awards": null,
+  "box_office": null,
+  "ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "5.2/10"
+    }
+  ]
+}
+</code>
